@@ -1,0 +1,11 @@
+# SSL 개인키 절대 포함 금지
+ssl/*.key
+ssl/*.pem
+
+# 실제 config.php (마스킹 버전만 포함)
+# nextcloud/config.php 는 포함 (민감정보 제거됨)
+
+# 시스템 파일
+.DS_Store
+*.swp
+*.bak
