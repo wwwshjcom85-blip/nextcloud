@@ -1,0 +1,33 @@
+<?php
+$CONFIG = array (
+  'instanceid' => 'oc708wui02gz',
+  'passwordsalt' => '### REDACTED ###',
+  'secret' => '### REDACTED ###',
+  'trusted_domains' => 
+  array (
+    0 => '192.168.0.141',
+    1 => 'docs.anyit.net',
+    2 => 'docs.anyit.net:40443',
+  ),
+  'datadirectory' => '/var/www/html/nextcloud/data',
+  'dbtype' => 'mysql',
+  'version' => '33.0.0.16',
+  'overwrite.cli.url' => 'https://docs.anyit.net:40443',
+  'overwritehost' => 'docs.anyit.net:40443',
+  'overwriteprotocol' => 'https',
+  'dbname' => 'nextcloud',
+  'dbhost' => '127.0.0.1',
+  'dbuser' => 'nextclouduser',
+  'dbpassword' => '### REDACTED ###',
+  'installed' => true,
+  'debug' => true,
+  'mysql.utf8mb4' => true,
+  'ssl.verify_peer' => false,
+  'ssl.verify_host' => false,
+  'customclient_cert' => '/core/downloads/nextcloud_trust.cer',
+  'customclient_desktop' => 'https://nextcloud.com/install/#install-clients',
+  'customclient_android' => 'https://play.google.com/store/apps/details?id=com.nextcloud.client',
+  'customclient_ios' => 'https://apps.apple.com/us/app/nextcloud/id1125420102',
+  'dbtableprefix' => 'oc_',
+  'maintenance' => false,
+);

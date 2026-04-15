@@ -1,0 +1,34 @@
+Linux docs.anyit.net 5.14.0-570.17.1.el9_6.x86_64 #1 SMP PREEMPT_DYNAMIC Fri May 23 22:47:01 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+NAME="Rocky Linux"
+VERSION="9.6 (Blue Onyx)"
+ID="rocky"
+ID_LIKE="rhel centos fedora"
+VERSION_ID="9.6"
+PLATFORM_ID="platform:el9"
+PRETTY_NAME="Rocky Linux 9.6 (Blue Onyx)"
+ANSI_COLOR="0;32"
+LOGO="fedora-logo-icon"
+CPE_NAME="cpe:/o:rocky:rocky:9::baseos"
+HOME_URL="https://rockylinux.org/"
+VENDOR_NAME="RESF"
+VENDOR_URL="https://resf.org/"
+BUG_REPORT_URL="https://bugs.rockylinux.org/"
+SUPPORT_END="2032-05-31"
+ROCKY_SUPPORT_PRODUCT="Rocky-Linux-9"
+ROCKY_SUPPORT_PRODUCT_VERSION="9.6"
+REDHAT_SUPPORT_PRODUCT="Rocky Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="9.6"
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             4.0M     0  4.0M   0% /dev
+tmpfs                3.8G     0  3.8G   0% /dev/shm
+tmpfs                1.6G  8.9M  1.5G   1% /run
+efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
+/dev/mapper/rl-root  461G   27G  435G   6% /
+/dev/sda2            960M  235M  726M  25% /boot
+/dev/sda1            599M  7.1M  592M   2% /boot/efi
+/dev/mapper/rl-home   30G  244M   30G   1% /home
+overlay              461G   27G  435G   6% /var/lib/docker/rootfs/overlayfs/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2
+tmpfs                769M     0  769M   0% /run/user/0
+               total        used        free      shared  buff/cache   available
+Mem:           7.5Gi       2.3Gi       2.8Gi        93Mi       2.7Gi       5.2Gi
+Swap:          7.9Gi          0B       7.9Gi

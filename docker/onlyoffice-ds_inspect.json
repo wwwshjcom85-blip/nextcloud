@@ -1,0 +1,317 @@
+[
+    {
+        "Id": "09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2",
+        "Created": "2026-03-19T03:54:49.828527508Z",
+        "Path": "/app/ds/run-document-server.sh",
+        "Args": [],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 2031,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2026-04-09T23:52:21.599362864Z",
+            "FinishedAt": "2026-04-08T04:39:13.830964516Z"
+        },
+        "Image": "sha256:53a06109f1f4029a78f913a061e14f01bff023d109024073a13d4416b54d2195",
+        "ResolvConfPath": "/var/lib/docker/containers/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2/hostname",
+        "HostsPath": "/var/lib/docker/containers/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2/hosts",
+        "LogPath": "/var/lib/docker/containers/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2-json.log",
+        "Name": "/onlyoffice-ds",
+        "RestartCount": 0,
+        "Driver": "overlayfs",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": null,
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "bridge",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": [],
+            "DnsOptions": [],
+            "DnsSearch": [],
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": [],
+            "BlkioDeviceReadBps": [],
+            "BlkioDeviceWriteBps": [],
+            "BlkioDeviceReadIOps": [],
+            "BlkioDeviceWriteIOps": [],
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": [],
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": [],
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/acpi",
+                "/proc/asound",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/sys/devices/virtual/powercap",
+                "/sys/firmware"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "Storage": {
+            "RootFS": {
+                "Snapshot": {
+                    "Name": "overlayfs"
+                }
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "3329a61015e19088e1d8cb000f1b390084637ee2de9221afc88816048f532c71",
+                "Source": "/var/lib/docker/volumes/3329a61015e19088e1d8cb000f1b390084637ee2de9221afc88816048f532c71/_data",
+                "Destination": "/var/log/onlyoffice",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "8bd1fdd265ecded4e64ec2b372e49844c220680482bf7925ba2fee233bb12b97",
+                "Source": "/var/lib/docker/volumes/8bd1fdd265ecded4e64ec2b372e49844c220680482bf7925ba2fee233bb12b97/_data",
+                "Destination": "/var/www/onlyoffice/Data",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "31581c6a6d83f2cf2a921bf2324bdf2b332d43ab26026d89c7bf91b587a9fb6a",
+                "Source": "/var/lib/docker/volumes/31581c6a6d83f2cf2a921bf2324bdf2b332d43ab26026d89c7bf91b587a9fb6a/_data",
+                "Destination": "/usr/share/fonts/truetype/custom",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8",
+                "Source": "/var/lib/docker/volumes/1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8/_data",
+                "Destination": "/var/lib/onlyoffice",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd",
+                "Source": "/var/lib/docker/volumes/247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd/_data",
+                "Destination": "/var/lib/postgresql",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552",
+                "Source": "/var/lib/docker/volumes/c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552/_data",
+                "Destination": "/var/lib/rabbitmq",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5",
+                "Source": "/var/lib/docker/volumes/ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5/_data",
+                "Destination": "/var/lib/redis",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "09dbe6ed8253",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "443/tcp": {},
+                "80/tcp": {}
+            },
+            "Tty": true,
+            "OpenStdin": true,
+            "StdinOnce": false,
+            "Env": [
+                "JWT_SECRET=qhdks00_secret",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "OC_RELEASE_NUM=23",
+                "OC_RU_VER=7",
+                "OC_RU_REVISION_VER=0",
+                "OC_RESERVED_NUM=25",
+                "OC_RU_DATE=01",
+                "OC_PATH=2370000",
+                "OC_FILE_SUFFIX=23.7.0.25.01",
+                "OC_VER_DIR=23_7",
+                "OC_DOWNLOAD_URL=https://download.oracle.com/otn_software/linux/instantclient/2370000",
+                "LANG=en_US.UTF-8",
+                "LANGUAGE=en_US:en",
+                "LC_ALL=en_US.UTF-8",
+                "DEBIAN_FRONTEND=noninteractive",
+                "PG_VERSION=16",
+                "BASE_VERSION=24.04",
+                "COMPANY_NAME=onlyoffice",
+                "PRODUCT_NAME=documentserver",
+                "PRODUCT_EDITION=",
+                "DS_PLUGIN_INSTALLATION=false",
+                "DS_DOCKER_INSTALLATION=true"
+            ],
+            "Cmd": null,
+            "Image": "onlyoffice/documentserver",
+            "Volumes": {
+                "/usr/share/fonts/truetype/custom": {},
+                "/var/lib/onlyoffice": {},
+                "/var/lib/postgresql": {},
+                "/var/lib/rabbitmq": {},
+                "/var/lib/redis": {},
+                "/var/log/onlyoffice": {},
+                "/var/www/onlyoffice/Data": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/app/ds/run-document-server.sh"
+            ],
+            "Labels": {
+                "maintainer": "Ascensio System SIA <support@onlyoffice.com>",
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "24.04"
+            }
+        },
+        "NetworkSettings": {
+            "SandboxID": "aa72111fd808edf639bbce607af3d8915629448ee1cc7072d8b67a4f3ff4d5a2",
+            "SandboxKey": "/var/run/docker/netns/aa72111fd808",
+            "Ports": {
+                "443/tcp": null,
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8080"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8080"
+                    }
+                ]
+            },
+            "Networks": {
+                "bridge": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": null,
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "519bd3501b078d5737a27724c0d4eec5acd8621cf575f408680d5386f6fa280b",
+                    "EndpointID": "a4bfb52630471aa489b6cd316fe2bcb7e7a003ec242cba077c811096a34de92c",
+                    "Gateway": "172.17.0.1",
+                    "IPAddress": "172.17.0.2",
+                    "MacAddress": "a6:d2:e0:e5:90:d0",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": null
+                }
+            }
+        },
+        "ImageManifestDescriptor": {
+            "mediaType": "application/vnd.oci.image.manifest.v1+json",
+            "digest": "sha256:b9eba9d389f5c92334ea08ae48ee0fbdc52703defac005f9a0a2226d79304076",
+            "size": 1817,
+            "platform": {
+                "architecture": "amd64",
+                "os": "linux"
+            }
+        }
+    }
+]

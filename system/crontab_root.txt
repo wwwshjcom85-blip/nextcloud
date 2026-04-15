@@ -1,0 +1,1 @@
+0 2 * * * /root/nextcloud-config/scripts/sync.sh >> /var/log/nextcloud-git-sync.log 2>&1

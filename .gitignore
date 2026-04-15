@@ -1,11 +1,18 @@
-# SSL 개인키 절대 포함 금지
+# SSL 개인키 평문 - 절대 포함 금지
 ssl/*.key
 ssl/*.pem
 
-# 실제 config.php (마스킹 버전만 포함)
-# nextcloud/config.php 는 포함 (민감정보 제거됨)
+# 암호화된 파일은 포함 (*.enc)
+!ssl/*.enc
+!nextcloud/*.enc
 
-# 시스템 파일
-.DS_Store
+# 임시파일
 *.swp
 *.bak
+.DS_Store
+
+# DB 원본 SQL (너무 크면 제외, .gz 압축본만 포함)
+# db/*.sql  ← 주석처리: .gz 압축본만 포함
+
+# 로그
+*.log

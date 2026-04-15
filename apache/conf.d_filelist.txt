@@ -1,0 +1,13 @@
+total 52
+drwxr-xr-x. 2 root root 4096 Mar 19 09:50 .
+drwxr-xr-x. 6 root root  116 Mar 18 18:38 ..
+-rw-r--r--. 1 root root 1231 Mar 19 17:51 00-nextcloud.conf
+-rw-r--r--. 1 root root  400 Dec 23 13:31 README
+-rw-r--r--. 1 root root 2916 Dec 23 13:31 autoindex.conf
+-rw-r--r--. 1 root root  595 Mar 17 10:08 nextcloud-ssl.conf.bak
+-rw-r--r--. 1 root root 1119 Mar 10 02:30 nextcloud.conf
+-rw-r--r--. 1 root root 1577 Jan 28 10:05 php.conf
+-rw-r--r--. 1 root root  579 Dec 23 13:29 rocky-snipolicy.conf
+-rw-r--r--. 1 root root 8720 Dec 23 13:29 ssl.conf.bak
+-rw-r--r--. 1 root root 1252 Dec 23 13:29 userdir.conf
+-rw-r--r--. 1 root root  653 Dec 23 13:29 welcome.conf.bak
