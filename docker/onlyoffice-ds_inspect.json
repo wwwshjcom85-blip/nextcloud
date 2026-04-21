@@ -140,6 +140,36 @@
         "Mounts": [
             {
                 "Type": "volume",
+                "Name": "1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8",
+                "Source": "/var/lib/docker/volumes/1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8/_data",
+                "Destination": "/var/lib/onlyoffice",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd",
+                "Source": "/var/lib/docker/volumes/247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd/_data",
+                "Destination": "/var/lib/postgresql",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552",
+                "Source": "/var/lib/docker/volumes/c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552/_data",
+                "Destination": "/var/lib/rabbitmq",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
                 "Name": "ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5",
                 "Source": "/var/lib/docker/volumes/ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5/_data",
                 "Destination": "/var/lib/redis",
@@ -173,36 +203,6 @@
                 "Name": "31581c6a6d83f2cf2a921bf2324bdf2b332d43ab26026d89c7bf91b587a9fb6a",
                 "Source": "/var/lib/docker/volumes/31581c6a6d83f2cf2a921bf2324bdf2b332d43ab26026d89c7bf91b587a9fb6a/_data",
                 "Destination": "/usr/share/fonts/truetype/custom",
-                "Driver": "local",
-                "Mode": "",
-                "RW": true,
-                "Propagation": ""
-            },
-            {
-                "Type": "volume",
-                "Name": "1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8",
-                "Source": "/var/lib/docker/volumes/1aac30e2a90d36878168623afe6d003d873b68456f8b26a3f574d11857634ea8/_data",
-                "Destination": "/var/lib/onlyoffice",
-                "Driver": "local",
-                "Mode": "",
-                "RW": true,
-                "Propagation": ""
-            },
-            {
-                "Type": "volume",
-                "Name": "247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd",
-                "Source": "/var/lib/docker/volumes/247057abedda25e0fc4df1196efbf2ae99476fef06dd2da6dd6cf16af61149bd/_data",
-                "Destination": "/var/lib/postgresql",
-                "Driver": "local",
-                "Mode": "",
-                "RW": true,
-                "Propagation": ""
-            },
-            {
-                "Type": "volume",
-                "Name": "c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552",
-                "Source": "/var/lib/docker/volumes/c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552/_data",
-                "Destination": "/var/lib/rabbitmq",
                 "Driver": "local",
                 "Mode": "",
                 "RW": true,
