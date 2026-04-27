@@ -140,16 +140,6 @@
         "Mounts": [
             {
                 "Type": "volume",
-                "Name": "ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5",
-                "Source": "/var/lib/docker/volumes/ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5/_data",
-                "Destination": "/var/lib/redis",
-                "Driver": "local",
-                "Mode": "",
-                "RW": true,
-                "Propagation": ""
-            },
-            {
-                "Type": "volume",
                 "Name": "3329a61015e19088e1d8cb000f1b390084637ee2de9221afc88816048f532c71",
                 "Source": "/var/lib/docker/volumes/3329a61015e19088e1d8cb000f1b390084637ee2de9221afc88816048f532c71/_data",
                 "Destination": "/var/log/onlyoffice",
@@ -203,6 +193,16 @@
                 "Name": "c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552",
                 "Source": "/var/lib/docker/volumes/c2b2d8852a73c52e8356b2caf09161481093017cc41fb32eda30ec8f5a597552/_data",
                 "Destination": "/var/lib/rabbitmq",
+                "Driver": "local",
+                "Mode": "",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5",
+                "Source": "/var/lib/docker/volumes/ac3121bcc8fbd805937e666c763b343ddf27c4426f47f761201d262b55c495a5/_data",
+                "Destination": "/var/lib/redis",
                 "Driver": "local",
                 "Mode": "",
                 "RW": true,
