@@ -1,2 +1,2 @@
 CONTAINER ID   IMAGE                       COMMAND                   STATUS       PORTS                                              NAMES
-09dbe6ed8253   onlyoffice/documentserver   "/app/ds/run-documen…"   Up 2 weeks   443/tcp, 0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   onlyoffice-ds
+09dbe6ed8253   onlyoffice/documentserver   "/app/ds/run-documen…"   Up 3 weeks   443/tcp, 0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   onlyoffice-ds
