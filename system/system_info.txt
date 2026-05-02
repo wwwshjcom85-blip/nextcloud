@@ -21,7 +21,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="9.6"
 Filesystem           Size  Used Avail Use% Mounted on
 devtmpfs             4.0M     0  4.0M   0% /dev
 tmpfs                3.8G     0  3.8G   0% /dev/shm
-tmpfs                1.6G  8.9M  1.5G   1% /run
+tmpfs                1.6G   17M  1.5G   2% /run
 efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
 /dev/mapper/rl-root  461G   27G  435G   6% /
 /dev/sda2            960M  235M  726M  25% /boot
@@ -30,5 +30,5 @@ efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
 overlay              461G   27G  435G   6% /var/lib/docker/rootfs/overlayfs/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2
 tmpfs                769M     0  769M   0% /run/user/0
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       1.6Gi       3.5Gi        93Mi       2.8Gi       5.9Gi
+Mem:           7.5Gi       1.6Gi       3.5Gi       101Mi       2.8Gi       5.9Gi
 Swap:          7.9Gi          0B       7.9Gi
