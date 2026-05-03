@@ -21,7 +21,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="9.6"
 Filesystem           Size  Used Avail Use% Mounted on
 devtmpfs             4.0M     0  4.0M   0% /dev
 tmpfs                3.8G     0  3.8G   0% /dev/shm
-tmpfs                1.6G   17M  1.5G   2% /run
+tmpfs                1.6G   18M  1.5G   2% /run
 efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
 /dev/mapper/rl-root  461G   27G  435G   6% /
 /dev/sda2            960M  235M  726M  25% /boot
