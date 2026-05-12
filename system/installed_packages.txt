@@ -112,6 +112,7 @@ glibc-2.34
 glibc-common-2.34
 glibc-gconv-extra-2.34
 glibc-langpack-en-2.34
+glibc-langpack-ko-2.34
 gmp-6.2.0
 gnupg2-2.3.3
 gnutls-3.8.3

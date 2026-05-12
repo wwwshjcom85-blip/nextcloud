@@ -8,6 +8,7 @@ Enabled:
   - contactsinteraction: 1.14.1
   - dashboard: 7.13.0
   - dav: 1.36.0
+  - encryption: 2.21.0
   - federatedfilesharing: 1.23.0
   - federation: 1.23.0
   - files: 2.5.0
@@ -49,7 +50,6 @@ Enabled:
   - workflowengine: 2.15.0
 Disabled:
   - admin_audit: 1.23.0
-  - encryption: 2.21.0
   - files_external: 1.25.1
   - suspicious_login: 11.0.0-dev.0
   - twofactor_nextcloud_notification: 7.0.0
