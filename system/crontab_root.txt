@@ -2,3 +2,8 @@
 0 2 * * * NEXTCLOUD_BACKUP_KEY=anyit-nextcloud-2026 /root/nextcloud-config/scripts/full-backup.sh >> /var/log/nextcloud-git-sync.log 2>&1
 # DB만 별도 백업 (6시간마다 - DB 변경 빈도 고려)
 0 */6 * * * DB_PASS=$(grep -oP "'dbpassword' => '\K[^']*" /var/www/html/nextcloud/config/config.php | head -1) && mysqldump -unextclouduser -p"$DB_PASS" --single-transaction nextcloud 2>/dev/null | gzip > /root/nextcloud-config/db/nextcloud_db.sql.gz && cd /root/nextcloud-config && git add db/ && git diff --cached --quiet || git commit -m "db: backup $(date '+%Y-%m-%d %H:%M')" && git push origin main >> /var/log/nextcloud-git-sync.log 2>&1
+
+# Local full backup to /backup (Daily at 2 AM)
+0 2 * * * /root/scripts/nc_local_backup.sh >> /var/log/nc_local_backup.log 2>&1
+# Local backup cleanup (Daily at 4 AM, keep last 3 days)
+0 4 * * * /root/scripts/nc_backup_cleanup.sh >> /var/log/nc_local_backup.log 2>&1
