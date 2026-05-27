@@ -30,5 +30,5 @@ efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
 overlay              461G   32G  430G   7% /var/lib/docker/rootfs/overlayfs/09dbe6ed82538002b48f7bf06374630424d93ecb2306bd873078e9b4775ca7e2
 tmpfs                769M     0  769M   0% /run/user/0
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       1.1Gi       1.5Gi        44Mi       5.2Gi       6.4Gi
-Swap:          7.9Gi       732Mi       7.2Gi
+Mem:           7.5Gi       1.1Gi       886Mi        46Mi       5.9Gi       6.4Gi
+Swap:          7.9Gi       728Mi       7.2Gi
