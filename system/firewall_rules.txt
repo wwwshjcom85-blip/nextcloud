@@ -3,7 +3,7 @@ public (active)
   icmp-block-inversion: no
   interfaces: ens192
   sources: 
-  services: cockpit dhcpv6-client https ssh
+  services: cockpit dhcpv6-client http https ssh
   ports: 443/tcp
   protocols: 
   forward: yes

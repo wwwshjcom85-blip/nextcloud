@@ -24,7 +24,6 @@ Enabled:
   - nextcloud_announcements: 5.0.0
   - notifications: 6.0.0
   - oauth2: 1.21.0
-  - onlyoffice: 10.0.0
   - password_policy: 5.0.0-dev.0
   - photos: 6.0.0-dev.0
   - privacy: 5.0.0-dev.0
@@ -32,6 +31,7 @@ Enabled:
   - provisioning_api: 1.23.0
   - recommendations: 6.0.0-dev.0
   - related_resources: 4.0.0-dev.0
+  - richdocuments: 10.1.3
   - serverinfo: 5.0.0-dev.0
   - settings: 1.16.0
   - sharebymail: 1.23.0

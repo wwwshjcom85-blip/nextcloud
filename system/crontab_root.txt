@@ -7,3 +7,4 @@
 0 2 * * * /root/scripts/nc_local_backup.sh >> /var/log/nc_local_backup.log 2>&1
 # Local backup cleanup (Daily at 4 AM, keep last 3 days)
 0 4 * * * /root/scripts/nc_backup_cleanup.sh >> /var/log/nc_local_backup.log 2>&1
+0 0,12 * * * python3 -c 'import random; import time; time.sleep(random.random() * 3600)' && certbot renew -q

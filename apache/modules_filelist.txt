@@ -1,6 +1,6 @@
 합계 56
 drwxr-xr-x. 2 root root 4096  3월  9 13:41 .
-drwxr-xr-x. 6 root root  116  3월 18 18:38 ..
+drwxr-xr-x. 6 root root  116  5월 29 10:31 ..
 -rw-r--r--. 1 root root 3325 12월 23 13:29 00-base.conf
 -rw-r--r--. 1 root root   47 12월 23 13:29 00-brotli.conf
 -rw-r--r--. 1 root root  139 12월 23 13:29 00-dav.conf
