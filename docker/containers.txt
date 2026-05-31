@@ -1,2 +1,2 @@
-CONTAINER ID   IMAGE            COMMAND                   STATUS        PORTS                      NAMES
-1c8c32d000b4   collabora/code   "/start-collabora-on…"   Up 39 hours   127.0.0.1:9980->9980/tcp   collabora-code
+CONTAINER ID   IMAGE            COMMAND                   STATUS      PORTS                      NAMES
+1c8c32d000b4   collabora/code   "/start-collabora-on…"   Up 2 days   127.0.0.1:9980->9980/tcp   collabora-code
