@@ -23,12 +23,12 @@ devtmpfs             4.0M     0  4.0M   0% /dev
 tmpfs                3.8G     0  3.8G   0% /dev/shm
 tmpfs                1.6G   35M  1.5G   3% /run
 efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
-/dev/mapper/rl-root  461G   34G  428G   8% /
+/dev/mapper/rl-root  461G   33G  428G   8% /
 /dev/sda2            960M  235M  726M  25% /boot
 /dev/sda1            599M  7.1M  592M   2% /boot/efi
 /dev/mapper/rl-home   30G  244M   30G   1% /home
-overlay              461G   34G  428G   8% /var/lib/docker/rootfs/overlayfs/1c8c32d000b45ce34db7fd96a75299549fd44a1d7446ab259f3c99ddb75452f3
+overlay              461G   33G  428G   8% /var/lib/docker/rootfs/overlayfs/1c8c32d000b45ce34db7fd96a75299549fd44a1d7446ab259f3c99ddb75452f3
 tmpfs                769M     0  769M   0% /run/user/0
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       1.6Gi       734Mi        63Mi       5.5Gi       5.9Gi
+Mem:           7.5Gi       1.7Gi       142Mi        63Mi       6.1Gi       5.8Gi
 Swap:          7.9Gi       179Mi       7.7Gi
