@@ -1,16 +1,16 @@
 합계 56
 drwxr-xr-x. 2 root root 4096  3월  9 13:41 .
 drwxr-xr-x. 6 root root  116  5월 29 10:31 ..
--rw-r--r--. 1 root root 3325 12월 23 13:29 00-base.conf
--rw-r--r--. 1 root root   47 12월 23 13:29 00-brotli.conf
--rw-r--r--. 1 root root  139 12월 23 13:29 00-dav.conf
--rw-r--r--. 1 root root   41 12월 23 13:29 00-lua.conf
--rw-r--r--. 1 root root  948 12월 23 13:29 00-mpm.conf
--rw-r--r--. 1 root root  845 12월 23 13:29 00-optional.conf
--rw-r--r--. 1 root root 1073 12월 23 13:29 00-proxy.conf
--rw-r--r--. 1 root root   41 12월 23 13:29 00-ssl.conf
--rw-r--r--. 1 root root   88 12월 23 13:29 00-systemd.conf
--rw-r--r--. 1 root root  367 12월 23 13:29 01-cgi.conf
+-rw-r--r--. 1 root root 3325 12월 23  2025 00-base.conf
+-rw-r--r--. 1 root root   47 12월 23  2025 00-brotli.conf
+-rw-r--r--. 1 root root  139 12월 23  2025 00-dav.conf
+-rw-r--r--. 1 root root   41 12월 23  2025 00-lua.conf
+-rw-r--r--. 1 root root  948 12월 23  2025 00-mpm.conf
+-rw-r--r--. 1 root root  845 12월 23  2025 00-optional.conf
+-rw-r--r--. 1 root root 1073 12월 23  2025 00-proxy.conf
+-rw-r--r--. 1 root root   41 12월 23  2025 00-ssl.conf
+-rw-r--r--. 1 root root   88 12월 23  2025 00-systemd.conf
+-rw-r--r--. 1 root root  367 12월 23  2025 01-cgi.conf
 -rw-r--r--. 1 root root   45 11월  6  2025 10-h2.conf
 -rw-r--r--. 1 root root   57 11월  6  2025 10-proxy_h2.conf
--rw-r--r--. 1 root root  496 12월 23 13:31 README
+-rw-r--r--. 1 root root  496 12월 23  2025 README
