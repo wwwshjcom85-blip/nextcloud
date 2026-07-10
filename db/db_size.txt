@@ -1,2 +1,2 @@
-312K	/root/nextcloud-config/db/nextcloud_db.sql.gz
-Backup time: 2026-07-10 02:00:01
+664K	/root/nextcloud-config/db/nextcloud_db.sql.gz
+Backup time: 2026-07-11 02:00:01

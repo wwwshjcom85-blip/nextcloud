@@ -9,6 +9,7 @@ Enabled:
   - dashboard: 7.13.0
   - dav: 1.36.0
   - encryption: 2.21.0
+  - external: 8.0.1
   - federatedfilesharing: 1.23.0
   - federation: 1.23.0
   - files: 2.5.0
