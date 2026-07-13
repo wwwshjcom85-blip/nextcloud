@@ -197,6 +197,10 @@ class NextcloudClient:
         logger.error(f"업로드 실패 ({status}): {path}")
         return False
 
+    def exists(self, path):
+        status, _ = self._request(path, method="PROPFIND")
+        return status in (207,)
+
 
 # ──────────────────────────────────────────────────────────────
 # 유틸리티
@@ -287,16 +291,7 @@ def sync_page_tree(dooray, nc, wiki_id, page_id, nc_dir, depth, dry_run, stats):
 
 
 def _make_header(subject, wiki_id, page_id, updated_at):
-    return f"""---
-title: "{subject}"
-source: Dooray Wiki
-wiki_id: "{wiki_id}"
-page_id: "{page_id}"
-synced_at: "{datetime.now().isoformat()}"
-updated_at: "{updated_at}"
----
-
-"""
+    return ""
 
 
 def _process_images(content, wiki_id, images, dooray, nc, nc_dir, dry_run):
@@ -315,10 +310,15 @@ def _process_images(content, wiki_id, images, dooray, nc, nc_dir, dry_run):
         if not dry_run:
             img_dir = f"{nc_dir}/images"
             nc.mkdir(img_dir)
-            img_data = dooray.download_image(wiki_id, attach_id)
-            if img_data:
-                nc.upload_file(f"{img_dir}/{img_name}", img_data)
-            time.sleep(CONFIG["rate_limit_delay"])
+            img_path = f"{img_dir}/{img_name}"
+            # 이미지가 이미 존재하는지 확인 후 업로드 생략 (속도 최적화)
+            if not nc.exists(img_path):
+                img_data = dooray.download_image(wiki_id, attach_id)
+                if img_data:
+                    nc.upload_file(img_path, img_data)
+                time.sleep(CONFIG["rate_limit_delay"])
+            else:
+                logger.debug(f"이미지 무시(이미 존재): {img_name}")
 
     return content
 
