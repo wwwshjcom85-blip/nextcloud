@@ -26,9 +26,9 @@ efivarfs             256K   28K  223K  12% /sys/firmware/efi/efivars
 /dev/mapper/rl-root  461G   34G  427G   8% /
 /dev/sda2            960M  235M  726M  25% /boot
 /dev/sda1            599M  7.1M  592M   2% /boot/efi
-/dev/mapper/rl-home   30G  244M   30G   1% /home
+/dev/mapper/rl-home   30G  248M   30G   1% /home
 overlay              461G   34G  427G   8% /var/lib/docker/rootfs/overlayfs/1c8c32d000b45ce34db7fd96a75299549fd44a1d7446ab259f3c99ddb75452f3
 tmpfs                769M     0  769M   0% /run/user/0
                total        used        free      shared  buff/cache   available
-Mem:           7.5Gi       2.4Gi       772Mi       103Mi       4.8Gi       5.1Gi
+Mem:           7.5Gi       2.4Gi       858Mi       103Mi       4.7Gi       5.1Gi
 Swap:          7.9Gi       145Mi       7.7Gi
